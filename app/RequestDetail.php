@@ -16,7 +16,7 @@ class RequestDetail extends Model
     public $timestamps  = false;
 
     /**
-     * Model Mapping
+     * Model Mapping 
      */
     protected $maps = [
         'request_detail_id' => 'REQUESTDETAILID', 
