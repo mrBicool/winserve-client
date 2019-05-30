@@ -13,9 +13,9 @@ class Request extends Model
     //
     use Eloquence, Mappable, Mutable;
     //
-    protected $table    = 'Requests';
-    protected $primaryKey = 'REQUESTID';
-    public $timestamps  = false;
+    protected $table        = 'Requests';
+    protected $primaryKey   = 'REQUESTID';
+    public $timestamps      = false;
 
     /**
      * Model Mapping
@@ -95,6 +95,6 @@ class Request extends Model
      * Relationshit
      */
     public function details(){
-        return $this->hasMany('App\RequestDetail','request_id');
+        return $this->hasMany('App\RequestDetail','REQUESTID');
     }
 }
