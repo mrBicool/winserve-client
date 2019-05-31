@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/transaction/request/{id}',  'DavidController@transaction');
+Route::any('/transaction/request/{id}',  'DavidController@transaction');
