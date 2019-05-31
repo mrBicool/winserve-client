@@ -13,14 +13,6 @@ Requirements
 Installation
 ============
 
-composer require buonzz/laravel-4-freegeoip:dev-master
-
-Add the service provider and facade in your config/app.php
-
-Service Provider
-
-Buonzz\GeoIP\Laravel4\ServiceProviders\GeoIPServiceProvider
-
-Facade
-
-'GeoIP' => 'Buonzz\GeoIP\Laravel4\Facades\GeoIP',
+For 64bit windows machine 
+    Download and install
+    [a link](https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe)
