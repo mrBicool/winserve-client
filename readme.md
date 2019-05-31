@@ -25,13 +25,13 @@ Download and install -->
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-composer-install.png)
 
-![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-config-cache.png)
-
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-copying-env.png)
+
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-key-generate.png)
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-editing-env-for-db-credential.png)
 
-![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-key-generate.png)
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-config-cache.png) 
             
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-update-env.png)
 
