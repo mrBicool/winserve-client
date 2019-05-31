@@ -21,13 +21,19 @@ Download and install -->
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/laragon%20window.png)
 
-![alt text](
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-cd-to-directory.png)
 
-![alt text](
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-composer-install.png)
 
-![alt text](
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-config-cache.png)
 
-![alt text](
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-copying-env.png)
+
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-editing-env-for-db-credential.png)
+
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-key-generate.png)
+            
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/cmdr-update-env.png)
 
 Download and create an empty folder named "php-7.1" in C:\laragon\bin\php\ and extract the downloaded zip into that folder. -->
 [Click to Download](https://windows.php.net/downloads/releases/php-7.1.30-Win32-VC14-x64.zip) <--
