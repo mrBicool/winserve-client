@@ -1,0 +1,115 @@
+<soapenv:Envelope 
+xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+xmlns:tem="http://tempuri.org/" 
+xmlns:req="http://ENOC.SSB.IntegrationServices.SalesPaymentService/V1.0/Request">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:SendSaleRequest>
+         <!--Optional:-->
+         <tem:saleRequest>
+            <req:AuthHeader>
+               <req:UserName>TLXIjcRd9opcedavnnflg1I/IWGCYewb</req:UserName>
+               <req:Password>49dqoGAfIdpdO8TIg/R0+Q==</req:Password>
+            </req:AuthHeader>
+            <req:SaleHeader>
+               <req:TransactionNo>2697-02</req:TransactionNo>
+               <!--Optional:-->
+               <req:TransactionType>10190</req:TransactionType>
+               <req:TransactionDate>2019-04-17 12:12:11</req:TransactionDate>
+               <!--Optional:-->
+               <req:AuthCode></req:AuthCode>
+               <req:IsVoidTransaction>N</req:IsVoidTransaction>
+               <req:BusinessDate>2019-04-17 12:12:11</req:BusinessDate>
+               <req:StoreNo>1</req:StoreNo>
+               <req:CheckID>?</req:CheckID>
+               <req:TermID>?</req:TermID>
+               <req:TenderType>Online Credit</req:TenderType>
+               <req:TenderID>5</req:TenderID>
+               <!--Optional:-->
+               <req:VoidTransactionNo></req:VoidTransactionNo>
+               <req:Site>9191</req:Site>
+               <req:Company>1</req:Company>
+               <req:TerminalNo>0001</req:TerminalNo>
+            </req:SaleHeader>
+            <req:CashierID>1</req:CashierID>
+            <req:ManagerID>1</req:ManagerID>
+            <req:ShiftNo>1</req:ShiftNo>
+            <req:CallingSystem>RPOS CStore</req:CallingSystem>
+            <req:PartnerSystem>EFT CStore</req:PartnerSystem>
+            <req:Currency>ADP</req:Currency>
+            <req:SaleType>12</req:SaleType>
+            <!--Optional:-->
+            <req:SaleReason></req:SaleReason>
+            <req:Quantity>1</req:Quantity>
+            <!--Optional:-->
+            <req:GrossAmount>12.5</req:GrossAmount>
+            <!--Optional:-->
+            <req:Inventory></req:Inventory>
+            <req:ItemsList>
+               <!--Zero or more repetitions:-->
+               <req:Item>
+                  <req:ItemCode>83</req:ItemCode>
+                  <req:ItemDesc>Cstore / Mini mart</req:ItemDesc>
+                  <req:Quantity>1</req:Quantity>
+                  <req:UnitPrice>1</req:UnitPrice>
+                  <req:ItemAmount>4</req:ItemAmount>
+                  <req:SalesCategory>9</req:SalesCategory>
+                  <!--Optional:-->
+                  <req:AdditionalProductCode></req:AdditionalProductCode>
+                  <!--Optional:-->
+                  <req:TaxID></req:TaxID>
+                  <req:InclusiveTax></req:InclusiveTax>
+                  <!--Optional:-->
+                  <req:ParentItem></req:ParentItem>
+                  <!--Optional:-->
+                  <req:Discount>0.0</req:Discount>
+                  <!--Optional:-->
+                  <req:Promo></req:Promo>
+                  <req:NetAmount>4</req:NetAmount>
+                  <req:ExclusiveTax>4</req:ExclusiveTax>
+               </req:Item>
+            </req:ItemsList>
+            <!--Optional:-->
+            <req:AParameter1>?</req:AParameter1>
+            <!--Optional:-->
+            <req:AParameter2>?</req:AParameter2>
+            <!--Optional:-->
+            <req:AParameter3>?</req:AParameter3>
+            <!--Optional:-->
+            <req:AParameter4>?</req:AParameter4>
+            <!--Optional:-->
+            <req:AParameter5>?</req:AParameter5>
+            <!--Optional:-->
+            <req:AParameter6>?</req:AParameter6>
+            <!--Optional:-->
+            <req:AParameter7>?</req:AParameter7>
+            <!--Optional:-->
+            <req:AParameter8>?</req:AParameter8>
+            <!--Optional:-->
+            <req:AParameter9>?</req:AParameter9>
+            <!--Optional:-->
+            <req:AParameter10>?</req:AParameter10>
+            <!--Optional:-->
+            <req:AParameter11>?</req:AParameter11>
+            <!--Optional:-->
+            <req:AParameter12>?</req:AParameter12>
+            <!--Optional:-->
+            <req:AParameter13>?</req:AParameter13>
+            <!--Optional:-->
+            <req:AParameter14>?</req:AParameter14>
+            <!--Optional:-->
+            <req:AParameter15>?</req:AParameter15>
+            <!--Optional:-->
+            <req:AParameter16>?</req:AParameter16>
+            <!--Optional:-->
+            <req:AParameter17>?</req:AParameter17>
+            <!--Optional:-->
+            <req:AParameter18>?</req:AParameter18>
+            <!--Optional:-->
+            <req:AParameter19>?</req:AParameter19>
+            <!--Optional:-->
+            <req:AParameter20>?</req:AParameter20>
+         </tem:saleRequest>
+      </tem:SendSaleRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
