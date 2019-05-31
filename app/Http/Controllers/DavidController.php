@@ -103,7 +103,7 @@ class DavidController extends Controller
             $client = new Client(); //GuzzleHttp\Client  
             $response = new GRequest(
                 'OPTIONS', 
-                'http://soap-server.beta/gateway',
+                ''.$tr->tr,
                 ['Content-Type' => 'text/xml; charset=UTF8'],
                 $xml
             ); 
@@ -143,7 +143,8 @@ class DavidController extends Controller
             return $res; 
             
         }catch( \Exception $e){
-            \Log::error($e->getMessage()); 
+            \Log::error($e->getMessage());
+            return 'Resource not found!';
         }
         
     }

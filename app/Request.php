@@ -22,6 +22,7 @@ class Request extends Model
      */
     protected $maps = [
         'request_id'        => 'REQUESTID', 
+        'url'               => 'URL',
         'username'          => 'USERNAME',
         'password'          => 'PASSWORD',
         'trans_no'          => 'TRANSACTIONNO',
@@ -73,7 +74,8 @@ class Request extends Model
     ];  
 
     protected $getterMutators = [
-        'trans_no'   => 'trim', 
+        'url'   => 'trim', 
+        'trans_no'   => 'trim',  
         'trans_type'   => 'trim', 
         'is_void'  => 'trim',
         'store_no'  => 'trim',
