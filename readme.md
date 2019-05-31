@@ -14,5 +14,6 @@ Installation
 ============
 
 For 64bit windows machine 
-    Download and install
-    [a link](https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe)
+
+Download and install
+[a link](https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe)
