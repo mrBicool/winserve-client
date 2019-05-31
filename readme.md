@@ -40,7 +40,7 @@ Download and create an empty folder named "php-7.1" in C:\laragon\bin\php\ and e
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/php-sql-driver-dll.png)
 
-![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/selecting-php7-1.png)
+![alt text](https://github.com/davidgualvez/winserve-client/blob/master/installation/selecting-php7-1.png)
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/selecting-sql-driver.png)
 
