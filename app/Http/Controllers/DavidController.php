@@ -88,11 +88,11 @@ class DavidController extends Controller
                 $AParameter18           = $saleRequest->addChild('AParameter18');
                 $AParameter19           = $saleRequest->addChild('AParameter19');
                 $AParameter20           = $saleRequest->addChild('AParameter20');
-
-            $response   = Response::make($xml->asXML(), 200);
+            $xml = $xml->asXML();
+            
+            $response   = Response::make($xml, 200);
             $response->header('Content-Type', 'application/xml');
-            return $response;
-
+            return $response; 
             
         }catch( \Exception $e){
 
