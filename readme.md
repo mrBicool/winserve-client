@@ -47,3 +47,5 @@ Download and create an empty folder named "php-7.1" in C:\laragon\bin\php\ and e
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/laragon-auto-startup-config.png)
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/laragon-starting-server.png)
+
+![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/done.png)
