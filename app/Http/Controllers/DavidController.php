@@ -144,7 +144,7 @@ class DavidController extends Controller
             
         }catch( \Exception $e){
             \Log::error($e->getMessage());
-            return 'Resource not found!';
+            return 'server error!';
         }
         
     }
