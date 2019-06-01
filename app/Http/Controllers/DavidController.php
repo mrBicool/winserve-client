@@ -101,9 +101,10 @@ class DavidController extends Controller
             $xml = $xml->asXML();
 
             $client = new Client(); //GuzzleHttp\Client  
+            //dd($tr->url);
             $response = new GRequest(
                 'OPTIONS', 
-                ''.$tr->tr,
+                ''.$tr->url,
                 ['Content-Type' => 'text/xml; charset=UTF8'],
                 $xml
             ); 
