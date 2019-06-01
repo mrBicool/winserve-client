@@ -37,12 +37,7 @@ Decryption key: mhMZvGgE5gNAysgxzUcvwupi-yhONfxO-TbZjYsop64
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/master/installation/cmdr-config-cache.png) 
 
-Download and create an empty folder named "php-7.1" in C:\laragon\bin\php\ and extract the downloaded zip into that folder. -->
-[Click to Download](https://windows.php.net/downloads/releases/php-7.1.30-Win32-VC14-x64.zip) <--
-
-![alt text](https://github.com/davidgualvez/winserve-client/blob/master/installation/php-sql-driver-dll.png)
-
-![alt text](https://github.com/davidgualvez/winserve-client/blob/master/installation/selecting-php7-1.png)
+![alt text](https://github.com/davidgualvez/winserve-client/blob/master/installation/php-sql-driver-dll.png) 
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/master/installation/selecting-sql-driver.png)
 
