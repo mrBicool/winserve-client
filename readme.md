@@ -18,7 +18,8 @@ For 64bit windows machine
 
 Download and install Laragon --> 
 [Click here to download](https://mega.nz/#!Xf5CyAiT) <-- 
-Decryption key : mhMZvGgE5gNAysgxzUcvwupi-yhONfxO-TbZjYsop64
+
+Decryption key: mhMZvGgE5gNAysgxzUcvwupi-yhONfxO-TbZjYsop64
 
 ![alt text](https://github.com/davidgualvez/winserve-client/blob/development/installation/laragon%20window.png)
 
