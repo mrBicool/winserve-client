@@ -16,7 +16,7 @@ class DavidController extends Controller
 {
     //
     public function transaction($id){
-
+        \Log::error('YOU CALL THIS ROUTE AT '.now());
         try{
             $tr         = TransRequest::find($id); 
 
